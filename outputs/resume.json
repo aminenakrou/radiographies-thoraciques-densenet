@@ -1,0 +1,29 @@
+{
+  "radiographies": 1420,
+  "patients": 1317,
+  "decoupage": {
+    "train": 934,
+    "validation": 209,
+    "test": 277
+  },
+  "auc_moyenne": 0.707349085671628,
+  "auc_mediane": 0.711234831770546,
+  "brier_avant_calibration": 0.1550564437797948,
+  "brier_apres_calibration": 0.0722640693282282,
+  "regularisation_C": {
+    "Atelectasis": 0.0001,
+    "Cardiomegaly": 0.0001,
+    "Consolidation": 0.001,
+    "Edema": 0.1,
+    "Effusion": 0.0003,
+    "Emphysema": 0.001,
+    "Fibrosis": 0.01,
+    "Hernia": 0.001,
+    "Infiltration": 0.001,
+    "Mass": 0.03,
+    "Nodule": 0.0003,
+    "Pleural_Thickening": 0.0001,
+    "Pneumonia": 0.0001,
+    "Pneumothorax": 0.01
+  }
+}

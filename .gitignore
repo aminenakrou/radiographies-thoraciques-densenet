@@ -1,0 +1,12 @@
+# Environnement
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Images, étiquettes et caractéristiques en cache : non versionnées
+data/
+*.png.npy
+
+.DS_Store
+Thumbs.db
